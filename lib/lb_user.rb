@@ -7,8 +7,4 @@ module LbUser
     yield self
   end
 
-  def self.user
-    User.class_eval yield
-  end
-
 end
