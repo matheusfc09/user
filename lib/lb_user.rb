@@ -8,9 +8,7 @@ module LbUser
   end
 
   def self.user
-    User.class_eval do
-      yield
-    end
+    User.class_eval yield
   end
 
 end
