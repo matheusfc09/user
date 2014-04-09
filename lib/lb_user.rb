@@ -7,8 +7,8 @@ module LbUser
     yield self
   end
 
-  def self.user
-    User.class_eval
+  def self.user &block
+    User.class_eval &block
   end
 
 end
