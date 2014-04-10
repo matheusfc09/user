@@ -23,4 +23,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'devise_invitable'
   s.add_dependency 'rolify'
   s.add_dependency 'cancan'
+  s.add_dependency 'bootstrap-sass'
 end
