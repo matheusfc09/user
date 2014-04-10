@@ -19,3 +19,5 @@ gem 'protected_attributes'
 
 gem 'rolify'
 gem 'cancan'
+
+gem 'bootstrap-sass'

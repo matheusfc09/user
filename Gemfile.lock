@@ -2,7 +2,12 @@ PATH
   remote: .
   specs:
     lb_user (0.0.1)
+      cancan
+      devise
+      devise_invitable
       rails (~> 4.0.4)
+      rolify
+      sqlite3
 
 GEM
   remote: https://rubygems.org/
@@ -33,6 +38,8 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.2)
     bcrypt (3.1.7)
+    bootstrap-sass (3.1.0.2)
+      sass (~> 3.2)
     builder (3.1.4)
     cancan (1.6.10)
     devise (3.2.4)
@@ -75,6 +82,7 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rake (10.2.2)
     rolify (3.4.0)
+    sass (3.2.19)
     sprockets (2.12.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -99,10 +107,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap-sass
   cancan
   devise
   devise_invitable
   lb_user!
   protected_attributes
   rolify
-  sqlite3
