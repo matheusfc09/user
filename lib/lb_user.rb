@@ -1,5 +1,7 @@
 require "lb_user/engine"
 require "devise"
+require "devise_invitable"
+require "bootstrap-sass"
 
 module LbUser
 
